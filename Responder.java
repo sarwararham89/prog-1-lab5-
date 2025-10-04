@@ -25,6 +25,12 @@ public class Responder
         responseMap.put("slow",
         "I think this has to do with your hardware.Upgrading/n" + "your processor should slove all performance problems./n"
         + "Have you got a problem with our software?");
+        responseMap.put("finish",
+        "Your system has been completed. You may leave");
+        responseMap.put("crash",
+        "Your system has crashed. Please restart your device.");
+        responseMap.put("no action",
+        "Your action can not be completed. Please try again.");
     }
     
     /**

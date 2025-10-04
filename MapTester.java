@@ -10,14 +10,14 @@ import java.util.Set;
 public class MapTester
 {
     // instance variables - replace the example below with your own
-    private HashMap<String,String> contacts;
+    private HashMap<String,String> phonebook;
 
     /**
      * Constructor for objects of class MapTester
      */
     public MapTester()
     {
-        contacts = new HashMap<>();
+        phonebook = new HashMap<>();
     }
 
     /**
@@ -29,7 +29,7 @@ public class MapTester
     public void enterNumber(String name, String number)
     {
         //use the put method
-        contacts.put(name, number);
+        phonebook.put(name, number);
     } 
     
     /**
@@ -37,6 +37,6 @@ public class MapTester
      */
     public String lookupNumber(String name) {
         //use the get method
-        return contacts.get(name); 
+        return phonebook.get(name); 
     } 
 }
