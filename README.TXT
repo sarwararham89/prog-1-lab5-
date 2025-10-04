@@ -28,3 +28,26 @@ The purpose of this project is to demonstrate and study library classes, such
 as ArrayList, HashMap, HashSet, and Random.
 
 This project is only a first, rudimentary step towards the full solution.
+Question 24: A HashMap is a collection of key and value pairs of object and its mainly for a Map. Now a Map is used to store a flexible number of entries where each entry is a pair consisting a key and value object.
+Question 25: Both of those type used to parameterize are put for exemple"put(String,String) and get for exemple "get(Object Key) meaning from the method,put, we can take the first String thats the Key object. Yes we can use the same of them like "String". 
+Question 26: Call the method size(). 
+Question 28: It will just change its Value since that Key as already been added.
+Question 29: It will create two different Key. 
+Question 30: public String generationResponse(String word) 
+{
+    String response = responseMap.get(word);
+      if(response != null){
+          return response; }
+{     esle
+          return pickDefaultReponse();}
+}
+Question 31: The methods returns a value of null. 
+Question 32: I think you should retreive the collection of key by using the method "KeySet()" and then print out whatever is inside of it. 
+Question 33: Check the code in package bluej. 
+Question 34: Similarities:
+1.Both ArrayList and HashSet are collection classes designed to store objects.
+2.Both are used to hold  a variable number of entries.
+Differences:
+1. An ArrayList are for the order of elements and those are accessed by their index position starting from 0 unlike the HashSet does not have any of that. 
+Question 35: If the word returned in ArrayList, their order is in "order" meaning it stays in the order they were originally added unlike HashSet, the order isnt in "order" meaning they wont stay in the order that they were originally added.
+Question 36: 
