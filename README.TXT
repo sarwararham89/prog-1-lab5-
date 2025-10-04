@@ -50,4 +50,5 @@ Question 34: Similarities:
 Differences:
 1. An ArrayList are for the order of elements and those are accessed by their index position starting from 0 unlike the HashSet does not have any of that. 
 Question 35: If the word returned in ArrayList, their order is in "order" meaning it stays in the order they were originally added unlike HashSet, the order isnt in "order" meaning they wont stay in the order that they were originally added.
-Question 36: 
+Question 36: No there isnt any problem.
+
